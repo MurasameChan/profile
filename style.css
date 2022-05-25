@@ -1,0 +1,30 @@
+body {
+	background-color: #6082B6;
+}
+
+
+
+.div {
+	font-family: Verdana, sans-serif;
+	margin: 50px;
+	color: white;
+}
+
+.chinese{
+	font-family: "Microsoft JhengHei", sans-serif;
+	
+}
+
+.button {
+	margin: auto;
+	background-color: #FF8C00;
+	color: white;
+	font-family: Consolas, sans-serif;
+	padding: 10px;
+	text-decoration: none;
+	transition: 0.4s
+}
+
+.button:hover {
+  opacity: 0.7;
+}
