@@ -4,11 +4,16 @@ body {
 	margin: 0;
 }
 
-
-
 p {
 	font-family: Verdana, sans-serif;
 	text-indent: 3em;
+}
+
+img{
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: auto;
 }
 
 figure {
@@ -30,18 +35,24 @@ div{
 table {
 	border-collapse: collapse;
 	margin: auto;
+	width: 100%;
+	table-layout: fixed;
 }
 
-table td{
+table th,td{
 	border-top: solid;
 	border-bottom: solid;
 	border-right: solid;
 	padding: 10px;
-	
-
+	text-align: center;
 }
 
+
 table td:first-child{
+	border-left: solid;
+}
+
+table th:first-child{
 	border-left: solid;
 }
 
@@ -61,9 +72,9 @@ table td:first-child{
 	font-family: "Microsoft JhengHei", sans-serif;
 }
 
-.center {
-	display: block;
-	margin: auto;
+.fishicon{
+	width: 100px;
+	height: 100px;
 }
 
 .button {	
